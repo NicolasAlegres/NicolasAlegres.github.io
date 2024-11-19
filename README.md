@@ -14,6 +14,6 @@
 3. **Contacto**: Enlaces para conectarte conmigo en LinkedIn, enviar un correo, o visitar mi GitHub.
 
 ## Cómo ver el sitio
-Visita mi portafolio en [Mi GitHub Pages](https://github.com/NicolasAlegres.io).
+Visita mi portafolio en [Mi GitHub Pages](https://nicolasalegres.github.io/).
 
 ---
