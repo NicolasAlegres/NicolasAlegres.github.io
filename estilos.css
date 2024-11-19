@@ -159,5 +159,7 @@ body {
   background-color: rgba(126, 117, 117, 0.26); /* Vuelve al color original */
   outline: none;
 }
-
+body.solo-scroll {
+  overflow: auto; /* Scroll habilitado */
+}
 
