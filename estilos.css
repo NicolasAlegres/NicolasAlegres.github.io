@@ -1,0 +1,163 @@
+/* Estilo General del Body */
+body {
+  background-image: url(/imagenes/fondo.webp.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  font-size: 16px;
+}
+
+.letra-personalizada {
+  /* <uniquifier>: Use a unique and descriptive class name*/
+
+  font-family: "alata", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 160%;
+}
+
+.segundo-contenedor {
+  margin-top: 7rem;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Apila los elementos en pantallas pequeñas */
+}
+.imagen-redonda {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 5px solid #000;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%; /* Centra verticalmente */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease; /* Transición suave */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mueve la imagen hacia abajo cuando el menú se expande */
+.navbar-collapse.show ~ .contenedor .imagen-redonda {
+  transform: translate(
+    -50%,
+    calc(-50% + 80px)
+  ); /* Baja la imagen 80px, ajusta según lo necesario */
+}
+
+/* Contenedor para la Imagen */
+.contenedor {
+  width: 100%; /* Ancho completo */
+  height: 100vh; /* Altura completa del viewport */
+}
+
+.navbar {
+  background-color: #1b1b1ba9; /* Color oscuro de fondo */
+}
+
+/* Estilo del Navbar Toggler */
+.navbar-toggler {
+  border: 2px solid transparent; /* Elimina el borde visible */
+  background-color: rgba(126, 117, 117, 0.26); /* Fondo transparente */
+  box-shadow: none; /* Elimina la sombra */
+}
+
+/* Estilo cuando el Toggler está enfocado o activo */
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none; /* Elimina el borde de enfoque */
+  border: 2px solid transparent; /* Borde transparente */
+  background-color: rgba(156, 214, 170, 0.459); /* Fondo transparente */
+  box-shadow: none; /* Elimina la sombra */
+}
+.navbar-toggler:hover {
+  background-color: rgba(
+    156,
+    214,
+    170,
+    0.459
+  ); /* Cambia a este color al hacer hover */
+}
+
+.navbar-collapse.collapse.show ~ .navbar-toggler {
+  background-color: rgba(126, 117, 117, 0.26); /* Vuelve al color original */
+  outline: none;
+}
+
+
+
+
+/* Estilo General del Body */
+body {
+  background-image: url(/imagenes/fondo.webp.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Apila los elementos en pantallas pequeñas */
+}
+
+
+/* Mueve la imagen hacia abajo cuando el menú se expande */
+.navbar-collapse.show ~ .contenedor .imagen-redonda {
+  transform: translate(
+    -50%,
+    calc(-50% + 80px)
+  ); /* Baja la imagen 80px, ajusta según lo necesario */
+}
+
+/* Contenedor para la Imagen */
+.contenedor {
+  width: 100%; /* Ancho completo */
+  height: 100vh; /* Altura completa del viewport */
+}
+
+.navbar {
+  background-color: #1b1b1ba9; /* Color oscuro de fondo */
+}
+
+/* Estilo del Navbar Toggler */
+.navbar-toggler {
+  border: 2px solid transparent; /* Elimina el borde visible */
+  background-color: rgba(126, 117, 117, 0.26); /* Fondo transparente */
+  box-shadow: none; /* Elimina la sombra */
+}
+
+/* Estilo cuando el Toggler está enfocado o activo */
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none; /* Elimina el borde de enfoque */
+  border: 2px solid transparent; /* Borde transparente */
+  background-color: rgba(156, 214, 170, 0.459); /* Fondo transparente */
+  box-shadow: none; /* Elimina la sombra */
+}
+.navbar-toggler:hover {
+  background-color: rgba(
+    156,
+    214,
+    170,
+    0.459
+  ); /* Cambia a este color al hacer hover */
+}
+
+.navbar-collapse.collapse.show ~ .navbar-toggler {
+  background-color: rgba(126, 117, 117, 0.26); /* Vuelve al color original */
+  outline: none;
+}
+
+

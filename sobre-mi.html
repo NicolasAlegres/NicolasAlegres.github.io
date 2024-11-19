@@ -1,0 +1,228 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acerca de Mí</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="icon" href="imagenes/favicon.ico.ico" />
+  </head>
+
+  <body class="sicroll">
+    <nav class="navbar navbar-expand-md navbar-dark bg-muted custom-navbar">
+      <a
+        data-key="title"
+        class="navbar-brand text-light ms-3"
+        href="index.html"
+      ></a>
+      <div class="d-flex align-items-center ms-auto me-2 gap-3">
+        <div class="d-flex align-items-center">
+          <img
+            src="imagenes/flag-argentina.png"
+            alt="Bandera de Argentina"
+            style="width: 30px; height: 30px"
+            class="m-2"
+          />
+          <span>ESP</span>
+        </div>
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="toggle-switch" />
+        </div>
+
+        <div class="d-flex align-items-center">
+          <img
+            src="imagenes/flag-usa.png"
+            alt="Bandera de USA"
+            width="30px"
+            height="30px"
+            class="m-2"
+          />
+          <span>US</span>
+        </div>
+      </div>
+
+      <!-- Botón hamburguesa que solo aparece en pantallas pequeñas -->
+      <button
+        class="navbar-toggler d-md-none ms-auto"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menú que se colapsa en pantallas pequeñas -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-3">
+          <li class="nav-item active d-flex align-items-center">
+            <a class="nav-link text-light" href="index.html"
+              ><i class="fas fa-home"> </i>
+              <span data-key="home" class="navbar-brand text-light"></span>
+            </a>
+          </li>
+
+          <li class="nav-item active d-flex align-items-center">
+            <a class="nav-link text-light" href="sobre-mi.html"
+              ><i class="fas fa-user"></i>
+              <span data-key="about" class="navbar-brand text-light"></span>
+            </a>
+          </li>
+
+          
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col text-center">
+          <!-- Descripción -->
+          <h3 data-key="description" class="mt-5">
+            Hola, soy Nicolás. Soy desarrollador front-end con experiencia en
+            HTML, CSS, y JavaScript. Desde chico he sido un entusiasta del mundo
+            it. Aunque al principio enfrenté dificultades para ingresar a este
+            campo, nunca me rendí. Busqué diferentes caminos para alcanzar mi
+            objetivo, que es el de programar, y finalmente lo logré. Cada paso
+            que doy en este mundo me motiva aún más.
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-flex justify-content-center mt-5">
+      <!-- Primer contenedor: Conocimientos -->
+      <div class="text-center me-5">
+        <h1 data-key="skills" class="mb-4">Conocimientos</h1>
+        <div class="d-flex justify-content-center">
+          <!-- Primer ícono y su descripción -->
+          <div class="text-center mx-3 icono">
+            <i
+              class="fa-brands fa-html5 fa-flip fa-5x"
+              style="color: #f5f5f5"
+            ></i>
+            <p><strong>HTML</strong></p>
+          </div>
+
+          <!-- Segundo ícono y su descripción -->
+          <div class="text-center mx-3 icono">
+            <i
+              class="fa-brands fa-css3-alt fa-flip fa-5x"
+              style="color: #f5f5f5"
+            ></i>
+            <p><strong>CSS</strong></p>
+          </div>
+
+          <!-- Tercer ícono y su descripción -->
+          <div class="text-center mx-3 icono">
+            <i class="fa-brands fa-js fa-flip fa-5x" style="color: #f5f5f5"></i>
+            <p><strong>JavaScript</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segundo contenedor: Mis Datos -->
+      <!-- Segundo contenedor: Mis Datos -->
+<div class="text-center ms-5">
+  <h1 data-key="my_data" class="mb-3">Mis Datos</h1>
+
+  <div class="d-flex align-items-center justify-content-center mt-4 gap-4">
+    <a
+      href="https://www3.animeflv.net/ver/cyberpunk-edgerunners-4"
+      target="_blank"
+      class="text-decoration-none text-center"
+    >
+      <i class="fa-brands fa-linkedin fa-fade fa-5x" style="color: #1159d4bd"></i>
+      <p ><strong>Linkedin</strong></p>
+    </a>
+
+    <a
+      href="documentos/Nicolas-Alegres-CV-ESPAÑOL.pdf"
+      download="Nicolas-Alegres-CV-ESPAÑOL"
+      class="text-decoration-none text-center"
+      id="cvDownloadLink"
+    >
+      <i class="fa-regular fa-folder-open fa-fade fa-5x"></i>
+      <p ><strong>CV</strong></p>
+    </a>
+
+    <a href="https://github.com/NicolasAlegres"
+    target="_blank" 
+    class="text-decoration-none ">
+    <i class="fa-brands fa-github fa-fade fa-5x" style="color: #1159d4bd"></i>
+    <p ><strong>Github</strong></p>
+  </a>
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      function loadTranslations(language) {
+        // Cargar el archivo JSON adecuado según el idioma
+        fetch(`${language}.json`)
+          .then((response) => response.json())
+          .then((translations) => {
+            // Recorrer todos los elementos con el atributo 'data-key'
+            document.querySelectorAll("[data-key]").forEach((element) => {
+              const key = element.getAttribute("data-key"); // Obtener la clave de traducción
+              if (translations[key]) {
+                element.textContent = translations[key]; // Asignar la traducción correspondiente
+              }
+            });
+          })
+          .catch((error) => {
+            console.error("Error loading translations:", error);
+          });
+      }
+
+      function changeLanguage(language) {
+        localStorage.setItem("language", language); // Guardar el idioma en localStorage
+        loadTranslations(language); // Cargar las traducciones
+
+        // Cambiar el enlace de descarga del CV dependiendo del idioma
+        const cvDownloadLink = document.getElementById("cvDownloadLink");
+        if (language === "en") {
+          cvDownloadLink.href = "documentos/Nicolas-Alegres-INGLES-CV.pdf";
+          cvDownloadLink.download = "Nicolas-Alegres-CV-INGLES.pdf";
+        } else {
+          cvDownloadLink.href = "documentos/Nicolas-Alegres-CV-ESPAÑOL.pdf";
+          cvDownloadLink.download = "Nicolas-Alegres-CV-ESPAÑOL.pdf";
+        }
+      }
+
+      const savedLanguage = localStorage.getItem("language") || "es";
+      loadTranslations(savedLanguage);
+      changeLanguage(savedLanguage); // Establece el idioma y el enlace de descarga al cargar la página
+
+      // Cambia el idioma con el switch
+      const switchElement = document.getElementById("toggle-switch");
+      switchElement.checked = savedLanguage === "en";
+
+      switchElement.addEventListener("change", function () {
+        if (switchElement.checked) {
+          changeLanguage("en");
+        } else {
+          changeLanguage("es");
+        }
+
+        // Eliminamos el foco (sombra azul) después del clic
+        setTimeout(() => {
+          this.blur(); // Esto elimina el foco visual sin cambiar el estado del switch
+        }, 100); // Un pequeño retardo para que se vea el clic antes de quitar el foco
+      });
+    </script>
+  </body>
+</html>
