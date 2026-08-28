@@ -1,0 +1,15 @@
+{
+  "title": "Mi Portafolio",
+  "home": "Inicio",
+  "about": "Sobre mí",
+  "portfolio": "Portafolio",
+  "description": "Hola, soy Nicolás. Soy desarrollador front-end con experiencia en HTML, CSS, y JavaScript. Desde chico he sido un entusiasta del mundo it. Aunque al principio enfrenté dificultades para ingresar a este campo, nunca me rendí. Busqué diferentes caminos para alcanzar mi objetivo, que es el de programar, y finalmente lo logré. Cada paso que doy en este mundo me motiva aún más.",
+  "skills": "Conocimientos",
+  "my_data": "Mis Datos",
+  "contact": "Contacto",
+  "enter_your_name_here": "Ingrese su nombre aquí",
+  "enter_your_email_here": "Ingrese su mail aquí",
+  "enter_your_message_here": "Ingrese su mensaje aquí",
+  "send_form": "Enviar Formulario",
+  "message_sent_successfully": "¡Mensaje enviado con éxito!"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "My Portafolio",
+  "home": "Home",
+  "about": "About Me",
+  "portfolio": "Portfolio",
+  "description": "Hi, I'm Nicolas. I'm a front-end developer with experience in HTML, CSS, and JavaScript. I've been enthusiastic about the world since I was a kid. Although I initially faced difficulties in entering this field, I never gave up. I looked for different paths to reach my goal, which is programming, and I finally achieved it. Every step I take in this world motivates me even more.",
+  "skills": "Skills",
+  "my_data": "My Data",
+  "contact": "Contact",
+  "enter_your_name_here": "Enter your name here",
+  "enter_your_email_here": "Enter your email here",
+  "enter_your_message_here": "Enter your message here",
+  "send_form": "Send Form",
+  "message_sent_successfully!": "Message sent successfully!"
+}
